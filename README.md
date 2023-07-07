@@ -1,4 +1,4 @@
-# pipelinedprocessor
+# Pipelined Processor
 Using SystemVerilog HDL, a simple RISC(reduced instruction set computer) architecture MIPS 5-stage pipelined processor has been designed. 
 ## Functionalities 
 The processor is able to perform the following instructions:<br>
