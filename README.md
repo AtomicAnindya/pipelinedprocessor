@@ -10,6 +10,7 @@ The processor is able to perform the following instructions:<br>
 - and
 - or
 - slt
+- beq
 
  
 ##  Exceptions
