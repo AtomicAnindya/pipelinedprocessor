@@ -11,7 +11,17 @@ The pipeline should: fetch instructions to execute from the code memory and incr
 instruction; select arguments from the register file; compute results; do nothing in the memory stage; and store results back in the register file. 
 
 The design contain a program counter, a separate data and code memories (Harvard architecture), a register file, an ALU, and any other components needed, along with the instruction
-decode and control circuits and a hazard unit. At the end of the work, the processor correctly execute all of the **highlighted instructions in the table below**:
+decode and control circuits and a hazard unit. At the end of the work, the processor correctly execute all of the **instructions listed below**:
+1. lw
+2. sw
+3. addi
+4. add
+5. sub
+6. and
+7. or
+8. slt
+9. beq
+10. jump
 
 ## But, what is Pipelining or Parallelism?
 
@@ -25,16 +35,7 @@ The throughput can be improved by processing several tokens at the same time. Th
 Temporal parallelism is commonly called pipelining. Spatial parallelism is sometimes just called parallelism, but we will avoid that naming convention because it is ambiguous.
 ## Functionalities 
 The processor is able to perform the following instructions:<br>
-- lw
-- sw
-- addi
-- add
-- sub
-- and
-- or
-- slt
-- beq
-- jump
+
 ##  Simulation
 <p align="center">
 <img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Sim%20Waveform.PNG" width ="1000" height="350">
