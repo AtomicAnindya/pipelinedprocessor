@@ -12,6 +12,11 @@ The processor is able to perform the following instructions:<br>
 - slt
 - beq
 - jump
+##  Simulation
+<p align="center">
+<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Simulation%20Waveform.PNG" width ="1000" height="400">
+</p>
+In the waveform, all the values are in unsigned decimal format.
 
  
 ##  Exceptions
