@@ -14,7 +14,7 @@ The processor is able to perform the following instructions:<br>
 - jump
 ##  Simulation
 <p align="center">
-<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Simulation%20Waveform.PNG" width ="1000" height="350">
+<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Sim%20Waveform.PNG" width ="1000" height="350">
 </p>
 In the waveform, all the values are in unsigned decimal format.
 
