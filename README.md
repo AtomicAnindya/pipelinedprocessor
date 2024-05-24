@@ -1,5 +1,17 @@
 # Pipelined Processor
 Using SystemVerilog HDL, a simple RISC(reduced instruction set computer) architecture MIPS 5-stage pipelined processor has been designed. 
+It is a five-stage MIPS with piplined micro-architecture, which is the most common organization for MIPS. It contains the following stages:
+1. Fetch
+2. Decode
+3. Execute
+4. Memory
+5. Writeback
+
+The pipeline should: fetch instructions to execute from the code memory and increment the program counter by 4; decode each
+instruction; select arguments from the register file; compute results; do nothing in the memory stage; and store results back in the register file. 
+
+The design contain a program counter, a separate data and code memories (Harvard architecture), a register file, an ALU, and any other components needed, along with the instruction
+decode and control circuits and a hazard unit. At the end of the work, the processor correctly execute all of the **highlighted instructions in the table below**:
 
 ## But, what is Pipelining or Parallelism?
 
