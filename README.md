@@ -11,6 +11,7 @@ The processor is able to perform the following instructions:<br>
 - or
 - slt
 - beq
+- jump
 
  
 ##  Exceptions
