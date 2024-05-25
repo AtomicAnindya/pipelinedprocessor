@@ -33,11 +33,15 @@ The throughput can be improved by processing several tokens at the same time. Th
 - With temporal parallelism, a task is broken into stages, like an assembly line. Although each task must pass through all stages, a different task will be in each stage at any given time so multiple tasks can overlap.
 
 Temporal parallelism is commonly called pipelining. Spatial parallelism is sometimes just called parallelism, but we will avoid that naming convention because it is ambiguous.
+
 ## Datapath Diagram
 <p align="center">
-<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Sim%20Waveform.PNG" width ="1000" height="350">
+<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Datapath.PNG" width ="1000" height="440">
 </p>
-##  Simulation
+N.B. Combinational circuit for calculating Jump Address(jumpAddr) has not been shown in the diagram.
+
+
+## Simulation
 <p align="center">
 <img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Sim%20Waveform.PNG" width ="1000" height="350">
 </p>
