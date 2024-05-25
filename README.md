@@ -56,7 +56,7 @@ The above simulation is done for the following piece of code. The corresponding 
 
 
  
-##  Exceptions
+##  Special Case
 Conventionally PC (program counter) initially points at the address 0x00400000 but in the design, it is kept at the address 0x00000000.
 
 
