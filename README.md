@@ -21,7 +21,7 @@ decode and control circuits and a hazard unit. At the end of the work, the proce
 7. or
 8. slt
 9. beq
-10. jump
+10. j
 
 ## But, what is Pipelining or Parallelism?
 
@@ -63,5 +63,4 @@ Conventionally PC (program counter) initially points at the address 0x00400000 b
 ## Future
 In future versions, more instructions will be added.
 
-## Performance 
-The lw instruction takes the longest time that is 5 clock cycles. Overall CPI index is expected to be better than that as all other instructions takes less clock cycles than that.
+
