@@ -45,11 +45,12 @@ N.B. Combinational circuit for calculating Jump Address(jumpAddr) has not been s
 <p align="center">
 <img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Sim%20Waveform.PNG" width ="1000" height="350">
 </p>
-In the waveform, all the values are in unsigned decimal format.<br>
-
+N.B. In the waveform, all the values are in unsigned decimal format.<br>
+<p>
 The above simulation is done for the following piece of code. The corresponding machine code has been uploaded in the instruction memory through the memory file memfile.mem
+</p>
 <p align="center">
-<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Sim%20Waveform.PNG" width ="1000" height="350">
+<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Test%20Program.PNG" width ="1000" height="350">
 </p>
 
 
