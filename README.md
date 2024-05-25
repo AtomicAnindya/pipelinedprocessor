@@ -36,7 +36,7 @@ Temporal parallelism is commonly called pipelining. Spatial parallelism is somet
 
 ## Datapath Diagram
 <p align="center">
-<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/DataPath.png" width ="1000" height="440">
+<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/DataPath.png" width ="1000" height="460">
 </p>
 N.B. Combinational circuit for calculating Jump Address(jumpAddr) has not been shown in the diagram.
 
