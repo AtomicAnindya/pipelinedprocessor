@@ -63,4 +63,7 @@ Conventionally PC (program counter) initially points at the address 0x00400000 b
 ## Future
 In future versions, more instructions will be added.
 
+## Reference 
+1. David Harris and Sarah Harris. 2012. Digital Design and Computer Architecture, Second Edition (2nd. ed.). Morgan Kaufmann Publishers Inc., San Francisco, CA, USA.
+
 
