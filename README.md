@@ -57,6 +57,16 @@ The above simulation is done for the following piece of code. The corresponding 
 A piece of code has been written in MIPS assembly language to find the square root of a proper square number. The corresponding machine code has been uploaded on instruction memory through the memory file square_root.mem. See the image below for the code.
 
 
+</p>
+<p align="center">
+<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Square%20Root.PNG" width ="1000" height="350">
+</p>
+
+The code has been run using the designed processor. The input number is 4 and the result has been stored at the memory location 0x0000000c. You can see the simulation result below.
+</p>
+<p align="center">
+<img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Square%20Root.PNG" width ="1000" height="350">
+</p>
 
  
 ##  Special Case
