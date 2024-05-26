@@ -53,6 +53,9 @@ The above simulation is done for the following piece of code. The corresponding 
 <img src="https://github.com/AtomicAnindya/pipelinedprocessor/blob/main/Test%20Program.PNG" width ="1000" height="350">
 </p>
 
+## Program to find Square Root
+A piece of code has been written in MIPS assembly language to find the square root of a proper square number. The corresponding machine code has been uploaded on instruction memory through the memory file square_root.mem. See the image below for the code.
+
 
 
  
